@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conteneur{
+    text-align: center;
+    width: 95%;
+    
+}
+h2{
+    
+   width: 40%;
+    color: white;
+    margin-top: 100px;
+    margin: 0 auto;;
+    background-color: #e67e22;
+}
+
+#conteneur-form{
+   
+    background-color: rgb(205, 214, 203);
+    width: 50%;
+    height: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+#form{
+    position: relative;
+}
+
+#form #contact{
+    position: absolute;
+    left: 81px;
+    width: 40%;
+    
+}
+#form #message{
+    width: 70%;
+}
+
+#boutton{
+    position: relative;
+    width: 100px;
+    height: 50px;
+   
+}
+
+#btn{
+   width: 20%;
+   height: 35px;
+   background-color: #e67e22;
+   /* border: 2px solid white; */
+   border-radius: 3px solid grey;
+   color: white;
+}
